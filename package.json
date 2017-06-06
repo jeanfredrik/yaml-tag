@@ -1,0 +1,19 @@
+{
+  "name": "yaml-tag",
+  "version": "1.0.0",
+  "description": "Template literal tag function for YAML in JS",
+  "main": "index.js",
+  "repository": "https://github.com/jeanfredrik/yaml-tag.git",
+  "author": "Fredrik Johansson <jeanfredrik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.8.4"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
