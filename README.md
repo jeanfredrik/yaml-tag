@@ -56,6 +56,7 @@ const blog = yaml`
       laborum blanditiis.
   `)}
 `;
+
 /*
 {
   posts: [
