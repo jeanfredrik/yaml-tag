@@ -48,24 +48,28 @@ const blog = yaml`
   posts: ${times(3, (n) => yaml`
     title: Lorem ipsum ${n + 1}
     body: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto numquam, tempore culpa ipsam, voluptatibus aliquid laudantium, nostrum quam aspernatur esse inventore qui laboriosam eos voluptatum eligendi quas nihil laborum blanditiis.
+      Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Iusto numquam, tempore
+      culpa ipsam, voluptatibus aliquid laudantium,
+      nostrum quam aspernatur esse inventore qui
+      laboriosam eos voluptatum eligendi quas nihil
+      laborum blanditiis.
   `)}
 `;
-
 /*
 {
   posts: [
     {
       title: 'Lorem ipsum 1'
-      body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto numquam, tempore culpa ipsam, voluptatibus aliquid laudantium, nostrum quam aspernatur esse inventore qui laboriosam eos voluptatum eligendi quas nihil laborum blanditiis.'
+      body: 'Lorem ipsum dolor sit amet, consectetur\nadipisicing elit. Iusto numquam, tempore\nculpa ipsam, voluptatibus aliquid laudantium,\nnostrum quam aspernatur esse inventore qui\nlaboriosam eos voluptatum eligendi quas nihil\nlaborum blanditiis.'
     },
     {
       title: 'Lorem ipsum 2'
-      body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto numquam, tempore culpa ipsam, voluptatibus aliquid laudantium, nostrum quam aspernatur esse inventore qui laboriosam eos voluptatum eligendi quas nihil laborum blanditiis.'
+      body: 'Lorem ipsum dolor sit amet, consectetur\nadipisicing elit. Iusto numquam, tempore\nculpa ipsam, voluptatibus aliquid laudantium,\nnostrum quam aspernatur esse inventore qui\nlaboriosam eos voluptatum eligendi quas nihil\nlaborum blanditiis.'
     },
     {
       title: 'Lorem ipsum 3'
-      body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto numquam, tempore culpa ipsam, voluptatibus aliquid laudantium, nostrum quam aspernatur esse inventore qui laboriosam eos voluptatum eligendi quas nihil laborum blanditiis.'
+      body: 'Lorem ipsum dolor sit amet, consectetur\nadipisicing elit. Iusto numquam, tempore\nculpa ipsam, voluptatibus aliquid laudantium,\nnostrum quam aspernatur esse inventore qui\nlaboriosam eos voluptatum eligendi quas nihil\nlaborum blanditiis.'
     }
   ]
 }
