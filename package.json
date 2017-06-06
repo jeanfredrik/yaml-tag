@@ -1,6 +1,6 @@
 {
   "name": "yaml-tag",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Template literal tag function for YAML in JS",
   "main": "index.js",
   "repository": "https://github.com/jeanfredrik/yaml-tag.git",
