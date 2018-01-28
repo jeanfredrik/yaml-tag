@@ -27,7 +27,8 @@ function createReplacementNodeType(replacements) {
   });
 }
 
-function parse(strings, ...replacements) {
+function parse(strings) {
+  const replacements = Array.prototype.slice.call(arguments, 1)
   if(replacements.length > 0) {
     const ReplacementNodeType = createReplacementNodeType(replacements);
     const input = replacements.reduce(
